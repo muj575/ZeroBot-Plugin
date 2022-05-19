@@ -180,7 +180,7 @@ func init() {
 	save := flag.String("s", "", "Save default config to file and exit.")
 
 	flag.Parse()
-
+ 
 	if *h {
 		kanban.PrintBanner()
 		fmt.Println("Usage:")
